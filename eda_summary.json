@@ -1,0 +1,62 @@
+{
+  "shape": [
+    30000,
+    24
+  ],
+  "dtypes": {
+    "LIMIT_BAL": "int64",
+    "SEX": "int64",
+    "EDUCATION": "int64",
+    "MARRIAGE": "int64",
+    "AGE": "int64",
+    "PAY_0": "int64",
+    "PAY_2": "int64",
+    "PAY_3": "int64",
+    "PAY_4": "int64",
+    "PAY_5": "int64",
+    "PAY_6": "int64",
+    "BILL_AMT1": "int64",
+    "BILL_AMT2": "int64",
+    "BILL_AMT3": "int64",
+    "BILL_AMT4": "int64",
+    "BILL_AMT5": "int64",
+    "BILL_AMT6": "int64",
+    "PAY_AMT1": "int64",
+    "PAY_AMT2": "int64",
+    "PAY_AMT3": "int64",
+    "PAY_AMT4": "int64",
+    "PAY_AMT5": "int64",
+    "PAY_AMT6": "int64",
+    "target": "int64"
+  },
+  "missing_values": {
+    "LIMIT_BAL": 0,
+    "SEX": 0,
+    "EDUCATION": 0,
+    "MARRIAGE": 0,
+    "AGE": 0,
+    "PAY_0": 0,
+    "PAY_2": 0,
+    "PAY_3": 0,
+    "PAY_4": 0,
+    "PAY_5": 0,
+    "PAY_6": 0,
+    "BILL_AMT1": 0,
+    "BILL_AMT2": 0,
+    "BILL_AMT3": 0,
+    "BILL_AMT4": 0,
+    "BILL_AMT5": 0,
+    "BILL_AMT6": 0,
+    "PAY_AMT1": 0,
+    "PAY_AMT2": 0,
+    "PAY_AMT3": 0,
+    "PAY_AMT4": 0,
+    "PAY_AMT5": 0,
+    "PAY_AMT6": 0,
+    "target": 0
+  },
+  "class_balance": {
+    "0": 0.7788,
+    "1": 0.2212
+  }
+}

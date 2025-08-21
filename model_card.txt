@@ -1,0 +1,56 @@
+Model card - Taiwan Credit Default
+Created: 2025-08-13T08:46:29.703871 UTC
+
+Dataset:
+- path: C:\Users\saadk\Desktop\Codealpha project\default of credit card clients.xls
+- rows: 30000, cols: 33
+
+Sample features:
+- LIMIT_BAL
+- AGE
+- PAY_0
+- PAY_2
+- PAY_3
+- PAY_4
+- PAY_5
+- PAY_6
+- BILL_AMT1
+- BILL_AMT2
+- BILL_AMT3
+- BILL_AMT4
+- BILL_AMT5
+- BILL_AMT6
+- PAY_AMT1
+- PAY_AMT2
+- PAY_AMT3
+- PAY_AMT4
+- PAY_AMT5
+- PAY_AMT6
+- bill_sum
+- bill_mean
+- pay_sum
+- pay_mean
+- payment_rate
+- debt_ratio
+- num_delinq_pos
+- max_delinq
+- SEX_1
+- SEX_2
+- EDUCATION_0
+- EDUCATION_1
+- EDUCATION_2
+- EDUCATION_3
+- EDUCATION_4
+- EDUCATION_5
+- EDUCATION_6
+- MARRIAGE_0
+- MARRIAGE_1
+- MARRIAGE_2
+- MARRIAGE_3
+
+Evaluation:
+- RandomForest (calibrated): ROC-AUC=0.7522594887238028, precision=0.48445945945945945, recall=0.5403165033911078, f1=0.5108656929105807
+
+Limitations:
+- Historic dataset; monitor drift.
+- SMOTE used during training.
